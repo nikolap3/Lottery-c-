@@ -1,7 +1,7 @@
 #include <iostream>
-#include <cstdlib>
 #include <time.h>
 #include <windows.h>
+#include <conio.h>
 
 using namespace std;
 
@@ -57,6 +57,10 @@ int main()
             cout<<num<<" ";
         }
         //if a number is the same as the one you entered,then change its color
+    }
+    cout<<endl<<endl<<"Press a key to exit the program"<<endl;
+    while(!_kbhit())
+    {
     }
     return 0;
 }
